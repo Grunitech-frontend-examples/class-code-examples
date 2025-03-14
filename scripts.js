@@ -44,6 +44,12 @@
 // console.log(myObject["key1"]);
 // console.log(myObject.key1);
 
+/**
+ *
+ * For loops types
+ *
+ */
+
 // const myArray = ["a", "b", "c", "d", "e"];
 
 // for (let i = myArray.length - 1; i >= 0; i--) {
@@ -62,6 +68,12 @@
 // }
 // console.log("After loop");
 
+/**
+ *
+ * 2 Dimentional array loop (matrix)
+ *
+ */
+
 // const customersProducts = [
 // 	["prod1", "prod2", "prod3"], //user1
 // 	["prod3", "prod2", "prod7"], //user2
@@ -75,6 +87,12 @@
 // 		console.log("Product", product);
 // 	}
 // }
+
+/**
+ *
+ * Loops Exersice
+ *
+ */
 
 const myArray = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"];
 
