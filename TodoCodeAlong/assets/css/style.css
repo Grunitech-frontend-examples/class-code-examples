@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+
+.hidden {
+	display: none;
+}
+
+.error-message {
+	color: red;
+	font-size: 1.25rem;
+	text-align: center;
+}
+
+.todos-container {
+	max-width: 600px;
+	margin: 0 auto;
+	background: white;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.todo-list {
+	list-style: none;
+}
+
+.todo-list li {
+	padding: 15px;
+	margin: 10px 0;
+	background: #f8f9fa;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.2s;
+}
+
+.todo-list li:hover {
+	background: #e9ecef;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="assets/css/style.css" />
+	</head>
+	<body>
+		<div class="todos-container">
+			<textarea id="description" placeholder="Description"></textarea>
+			<br />
+			<select id="status">
+				<option value="1">completed</option>
+				<option value="0">not completed</option>
+			</select>
+			<br />
+			<input type="text" id="user-id" placeholder="user id" />
+			<br />
+			<button id="submit">Send!</button>
+
+			<h1>Todo List</h1>
+
+			<div class="loading hidden">Loading...</div>
+			<div class="error-message" id="error-container"></div>
+
+			<ul class="todo-list" id="todo-list"></ul>
+		</div>
+
+		<script src="./assets/js/scripts.js"></script>
+	</body>
+</html>
