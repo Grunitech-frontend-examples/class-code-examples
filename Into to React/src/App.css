@@ -1,0 +1,22 @@
+* {
+	font-family: arial;
+}
+
+.main-container {
+	display: flex;
+	gap: 10px;
+
+	.food-item {
+		img {
+			width: 100px;
+		}
+	}
+}
+
+.box {
+	width: 100px;
+	height: 100px;
+	background-color: purple;
+	position: absolute;
+	transition: left 0.5s;
+}
